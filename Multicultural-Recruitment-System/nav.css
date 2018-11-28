@@ -1,0 +1,30 @@
+﻿.topnavbarthing {
+    margin: 0;
+    background-color: #a41e35;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+    /* Style the links inside the navigation bar */
+    .topnavbarthing a {
+        float: left;
+        color: snow;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        /* Change the color of links on hover */
+        .topnavbarthing a:hover {
+            background-color: #8c2132;
+            color: snow;
+            text-decoration: none;
+        }
+
+        /* Add a color to the active/current link */
+        .topnavbarthing a.active {
+            background-color: #222222;
+            color: snow;
+            text-decoration: none;
+        }

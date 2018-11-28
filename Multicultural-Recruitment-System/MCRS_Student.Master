@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MCRS_Student.master.cs" Inherits="Multicultural_Recruitment_System.MCRS_Student" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="templebranding.css">
+    <link rel="stylesheet" href="loginstyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="UniversalMobile.css" />
+    <title>Multicultural-Recruitment-System</title>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light" style="font: bolder; margin: 0; width: 100%; min-height: 0px; max-height: 56px; text-align: left; padding-bottom: .5em;">
+        <span class="navbar-brand mb-0 h1" style="font: bolder;">
+            <img src="/pics/cherrytemplelogo.png" alt="Home" height="25" width="25"></span>
+        <p style="color: black; padding-top: 1em;">LKSOM</p>
+    </nav>
+    <%-----------------------------------------Body/Main Content-------------------------------------%>
+
+
+    <asp:ContentPlaceHolder ID="body" runat="server"></asp:ContentPlaceHolder>
+
+    
+</body>
+    <div class="footer container" style=" background-color: snow; margin-bottom: 0;">
+        <div class="row" style="padding-top: 1em;">
+            <div class="col-4">
+                <a href="MainMenu.aspx"><i class="fas fa-angle-left" style="color: black;"></i></a>
+            </div>
+            <div class="col-4 text-muted" style="text-align: center; font-size: 10px; bottom: 0; width: 100%; padding-top: .5em;">
+                <p>&copy Temple University</p>
+            </div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+</html>
+

@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MCRS.master.cs" Inherits="Multicultural_Recruitment_System.MCRS" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="templebranding.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+      <script src=" https://code.jquery.com/jquery-3.3.1.js"></script> 
+  <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+  <script src ="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css"></script>
+<script src ="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css"></script>
+
+    <link rel="stylesheet" href="nav.css" />
+    <title>Multicultural-Recruitment-System</title>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <%-------------------------------------------Nav Bar---------------------------------------------%>
+    
+
+    <div class="topnavbarthing">
+    <a class="active" href="Dash.aspx"> <img src="/pics/whitetemplelogo.png" alt="Home" height="25" width="25"> </a>
+  <a href="Dash.aspx">Prospect Dashboard</a>
+  <a href="ManageContent.aspx">Manage Content</a>
+  <a href="EventDashboard.aspx">Event Dashboard</a>
+    <div style="float:right;">
+        <a href="WebForm2.aspx" style="color:white;">Hi, Germyce</a> 
+        <a class="nav navbar-nav navbar-right" style="margin-top:5px;padding-right:-10px;color:white;" ><i class="fas fa-sign-out-alt"></i></a>
+    </div>
+</div>
+
+                <asp:ContentPlaceHolder ID="navBarItems" runat="server"></asp:ContentPlaceHolder>
+
+                
+
+
+    <%-----------------------------------------Body/Main Content-------------------------------------%>
+    <asp:ContentPlaceHolder ID="body" runat="server"></asp:ContentPlaceHolder>
+
+</body>
+</html>

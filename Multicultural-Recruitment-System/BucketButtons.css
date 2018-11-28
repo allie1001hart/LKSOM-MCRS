@@ -1,0 +1,30 @@
+.btn-circle.btn-xl {
+    width: 100px;
+    height: 100px;
+    padding: 10px 16px;
+    border-radius: 60px;
+    font-size: 36px;
+    line-height: 1.33;
+}
+
+.btn-circle:hover {
+    background-color: white;
+    border-color: black;
+    color:black;
+}
+
+.btn-circle {
+    width: 55px;
+    height: 55px;
+    padding: 6px 0px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.42857;
+    background-color:lightgray;
+    border-color:black;
+    color:black;
+}
+body {
+    color:white;
+}

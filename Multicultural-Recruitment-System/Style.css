@@ -1,0 +1,79 @@
+﻿
+#Containerospect{
+    background-color:grey;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    text-align: left;
+}
+
+/*tr:nth-child(even) {
+    background-color: #dddddd;
+}*/
+
+#BODY{
+    font-size:20px;
+    margin:0;
+}
+
+#Header{
+    margin-top:1%;
+    font-size:41px;
+    text-align:left;
+
+}
+
+#Buttons{
+    font-size:40px;
+}
+
+.black{
+    color:black;
+    
+}
+
+#Container{
+    padding-top:20%;
+}
+
+#Emailbody{
+    background-color:ghostwhite;
+}
+
+#Container1{
+    padding-top:9%;
+    padding-left:35%;
+    
+}
+
+#Container2 {
+    padding-top: 5%;
+   
+}
+
+#btnSend{
+    font-size:23px;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+}
+li{
+    text-decoration:none;
+    list-style-type:none;
+    list-style:none;
+}
+
+td {
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+}

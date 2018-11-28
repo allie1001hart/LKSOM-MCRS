@@ -1,0 +1,70 @@
+﻿body {
+}
+
+.myButton {
+    -moz-box-shadow: inset 0px 1px 0px 0px #a41e35;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #a41e35;
+    box-shadow: inset 0px 1px 0px 0px #a41e35;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a41e35', endColorstr='#a41e35',GradientType=0);
+    background-color: #a41e35;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #8c2132;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+}
+
+.myMobileButton {
+    -moz-box-shadow: inset 0px 1px 0px 0px #a41e35;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #a41e35;
+    box-shadow: inset 0px 1px 0px 0px #a41e35;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#444444',GradientType=0);
+    background-color: #444444;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #8c2132;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+}
+    .myButton:hover {
+        background-color: #8c2132;
+    }
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    
+}
+
+.page-item .page-link {
+    background-color: #a41e35 !important;
+    color: snow !important;
+}
+
+
+body_chkSaveAsTemplate{
+    margin-right:10px;
+}
